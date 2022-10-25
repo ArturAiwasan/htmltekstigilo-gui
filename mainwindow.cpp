@@ -68,8 +68,8 @@ void MainWindow::on_actionPri_la_programo_htmltekstigilo_triggered()
     QMessageBox prila(this);
     prila.setWindowTitle("Informaĵo");
     prila.setTextFormat(Qt::RichText);
-    prila.setText("<h2>htmltekstigilo 0.0.1.201022</h2><p>Autoro: arbttrn6 (arturaiwasan[@]gmail.com)</p>\
-<p>Ĉi tiu programo aldonas br-etikedo (tag) al finoj de linioj</p><a href='https://github.com/ArturAiwasan/htmltekstigilo-gui'>GitHub</a><br><a href='https://vk.com/btttrn6'>\
+    prila.setText("<h2>htmltekstigilo 0.0.2.251022</h2><p>Autoro: arbttrn6 (arturaiwasan[@]gmail.com)</p>\
+<p>Ĉi tiu programo aldonas br-etikedon (tag) al finoj de linioj</p><a href='https://github.com/ArturAiwasan/htmltekstigilo-gui'>GitHub</a><br><a href='https://vk.com/btttrn6'>\
 VK</a>");
     prila.exec();
 }

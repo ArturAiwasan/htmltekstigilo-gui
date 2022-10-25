@@ -103,7 +103,10 @@ p, li { white-space: pre-wrap; }
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionElektri_dosieron">
    <property name="text">
-    <string>Elektri dosieron</string>
+    <string>Elekti dosieron</string>
+   </property>
+   <property name="toolTip">
+    <string>Elekti dosieron</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+O</string>
@@ -124,6 +127,9 @@ p, li { white-space: pre-wrap; }
    <property name="shortcut">
     <string>Ctrl+Q</string>
    </property>
+   <property name="menuRole">
+    <enum>QAction::QuitRole</enum>
+   </property>
   </action>
   <action name="actionPri_la_programo_htmltekstigilo">
    <property name="text">
@@ -132,10 +138,16 @@ p, li { white-space: pre-wrap; }
    <property name="shortcut">
     <string>F1</string>
    </property>
+   <property name="menuRole">
+    <enum>QAction::AboutRole</enum>
+   </property>
   </action>
   <action name="actionPri_QT">
    <property name="text">
     <string>Pri QT</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::AboutQtRole</enum>
    </property>
   </action>
  </widget>
